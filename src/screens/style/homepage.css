@@ -1,0 +1,38 @@
+.homepage-content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9fafc;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.heading-text {
+  font-weight: bolder;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.box-cardComponent-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .heading-text {
+    width: 80%;
+    font-size: larger;
+  }
+
+  .box-cardComponent-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}

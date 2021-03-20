@@ -1,0 +1,140 @@
+.footer-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+}
+
+.footer-company {
+  width: 25%;
+  text-align: left;
+}
+.footer-company p {
+  text-align: justify;
+}
+
+.footer-list {
+  width: 20%;
+  text-align: left;
+}
+.footer-list h4 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.footer-list p {
+  color: gray;
+  cursor: pointer;
+}
+.footer-list p:hover {
+  color: rgb(33, 20, 109);
+  cursor: pointer;
+}
+
+.footer-lines {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+  align-items: center;
+}
+
+.lines {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.lines p {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 15px;
+  font-size: smaller;
+}
+
+.lines-social p {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 20px;
+  font-size: smaller;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-company {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .logo-text {
+    font-size: 10px;
+  }
+
+  .logo-text h4 {
+    font-size: 16px;
+  }
+
+  .footer-company p {
+    text-align: left;
+  }
+
+  .footer-list {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .footer-list h4 {
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .footer-list p {
+    color: gray;
+    cursor: pointer;
+  }
+  .footer-list p:hover {
+    color: rgb(33, 20, 109);
+    cursor: pointer;
+  }
+
+  .footer-lines {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+  }
+
+  .lines {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .lines p {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5px;
+    font-size: smaller;
+  }
+
+  .lines-social p {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+    font-size: smaller;
+  }
+}
